@@ -1,0 +1,15 @@
+{
+  "originHash" : "930254bced99783a0a174ef2de459fa8c89f19ee1e35dc805a143f0e7ebf52b0",
+  "pins" : [
+    {
+      "identity" : "navigationmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iamsagb/NavigationManager.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "e9ef65aa4d9c0e746b4169d48a90efa1967eec70"
+      }
+    }
+  ],
+  "version" : 3
+}
