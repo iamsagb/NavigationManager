@@ -35,7 +35,7 @@ https://github.com/iamsagb/NavigationManager
 
 # Getting Started
 
-1. Create an `AppRoute` enum that conforms to the `Navigable` protocol:
+1. Create an `AppRoute` enum that lists the screens in your app. It should conform to the `Navigable` protocol: 
 
 
 ```
@@ -60,7 +60,7 @@ enum AppRoute: Navigable {
 }
 ```
 
-2. Set up your App to use the NavigationManager:
+2. Integrate NavigationManager into your app:
 ```
 import NavigationManager
 import SwiftUI
@@ -83,17 +83,12 @@ struct DemoApp: App {
 3. Handle navigation using the NavigationManager functions from `NavigationManagingObject` Protocol
 
 ```
-    func navigateBack(_ count: Int)
-
-    func navigateBack(to destination: Destination)
-
-    func navigateToRoot()
-
-    func navigate(to destination: Destination)
-
-    func navigate(to destinations: [Destination])
-
-    func replace(with destinations: [Destination])
+func navigateBack(_ count: Int) // Go back by a specific number of steps.
+func navigateBack(to destination: Destination) // Go back to a specific destination.
+func navigateToRoot() // Return to the root view.
+func navigate(to destination: Destination) // Navigate to a single destination.
+func navigate(to destinations: [Destination]) // Navigate through a series of destinations.
+func replace(with destinations: [Destination]) // Replace the stack with new destinations.
 ```
 
-4. 
+4. And That’s it! Check the Example App in the repo for more details and working examples.
