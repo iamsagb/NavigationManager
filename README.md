@@ -83,7 +83,6 @@ struct DemoApp: App {
 3. Handle navigation using the NavigationManager functions from `NavigationManagingObject` Protocol
 
 ```
-
     func navigateBack(_ count: Int)
 
     func navigateBack(to destination: Destination)
