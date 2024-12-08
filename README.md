@@ -89,8 +89,28 @@ struct DemoApp: App {
     }
 }
 ```
+3. Use NavigationManager from environment to navigate 
+```
+struct ProfileView: View {
+    @EnvironmentObject var navigationManager: NavigationManager<AppRoute>
 
-3. Handle navigation using the NavigationManager functions from `NavigationManagingObject` Protocol
+    var body: some View {
+        VStack(spacing: 20) {
+            Text("Profile View")
+                .font(.headline)
+
+            Button("Go Back") {
+                navigationManager.navigateBack(1)
+            }
+        }
+        .padding()
+        .navigationTitle("Profile")
+    }
+}
+```
+
+
+4. Handle navigation using the NavigationManager functions from `NavigationManagingObject` Protocol
 
 ```
 func navigateBack(_ count: Int) // Go back by a specific number of steps.
@@ -106,4 +126,4 @@ func navigate(to destinations: [Destination]) // Navigate through a series of de
 func replace(with destinations: [Destination]) // Replace the stack with new destinations.
 ```
 
-4. And That’s it! Check the Example App in the repo for more details and working examples.
+5. And That’s it! Check the Example App in the repo for more details and working examples.
