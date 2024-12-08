@@ -94,10 +94,15 @@ struct DemoApp: App {
 
 ```
 func navigateBack(_ count: Int) // Go back by a specific number of steps.
+
 func navigateBack(to destination: Destination) // Go back to a specific destination.
+
 func navigateToRoot() // Return to the root view.
+
 func navigate(to destination: Destination) // Navigate to a single destination.
+
 func navigate(to destinations: [Destination]) // Navigate through a series of destinations.
+
 func replace(with destinations: [Destination]) // Replace the stack with new destinations.
 ```
 
