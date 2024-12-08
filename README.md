@@ -1,5 +1,14 @@
 # **NavigationManager**
 
+![Swift](https://img.shields.io/badge/Swift-5.7-orange)  
+![Platforms](https://img.shields.io/badge/platforms-iOS%20|%20macOS%20|%20tvOS%20|%20watchOS-blue)  
+![SPM](https://img.shields.io/badge/Swift%20Package%20Manager-Compatible-green)  
+![GitHub Stars](https://img.shields.io/github/stars/iamsagb/NavigationManager?style=social)  
+![GitHub Forks](https://img.shields.io/github/forks/iamsagb/NavigationManager?style=social)  
+![GitHub Contributors](https://img.shields.io/github/contributors/iamsagb/NavigationManager)  
+![Pull Requests](https://img.shields.io/github/issues-pr/iamsagb/NavigationManager)  
+![Issues](https://img.shields.io/github/issues/iamsagb/NavigationManager)  
+
 **Description**
 
 **NavigationManager** is a lightweight, SwiftUI-friendly navigation library for managing navigation stacks.
