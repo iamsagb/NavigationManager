@@ -1,9 +1,10 @@
-# **NavigationManager**
+# NavigationManager
 
 ![Swift](https://img.shields.io/badge/Swift-5.7-orange)  ![Platforms](https://img.shields.io/badge/platforms-iOS%20|%20macOS%20|%20tvOS%20|%20watchOS-blue)  ![SPM](https://img.shields.io/badge/Swift%20Package%20Manager-Compatible-green)  ![GitHub Stars](https://img.shields.io/github/stars/iamsagb/NavigationManager?style=social)  ![GitHub Forks](https://img.shields.io/github/forks/iamsagb/NavigationManager?style=social)  
 ![GitHub Contributors](https://img.shields.io/github/contributors/iamsagb/NavigationManager)  ![Pull Requests](https://img.shields.io/github/issues-pr/iamsagb/NavigationManager)  ![Issues](https://img.shields.io/github/issues/iamsagb/NavigationManager)  
 
-**Description**
+---
+# Description
 
 **NavigationManager** is a lightweight, SwiftUI-friendly navigation library for managing navigation stacks.
 
@@ -21,18 +22,17 @@
 
 •  Designed with no external dependencies for seamless integration.
 
+---
 
-
-
-**Requirements -** **Minimum Platform Version**
+# Requirements - Minimum Platform Version
 
  - iOS  16.0 
  - macOS  13.0
  -  tvOS  16.0 
  - watchOS  9.0
 
-
-**Installation**
+---
+# Installation
 
  
 You can install **NavigationManager** using the **Swift Package Manager**.
@@ -42,7 +42,7 @@ You can install **NavigationManager** using the **Swift Package Manager**.
 https://github.com/iamsagb/NavigationManager
 3.  Add the package to your project.
 
-
+---
 # Getting Started
 
 1. Create an `AppRoute` enum that lists the screens in your app. It should conform to the `Navigable` protocol: 
