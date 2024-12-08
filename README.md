@@ -8,11 +8,17 @@
 **NavigationManager** is a lightweight, SwiftUI-friendly navigation library for managing navigation stacks.
 
 •  Built on top of SwiftUI’s native **NavigationStack** and **NavigationDestination** APIs.
+
 •  Simplifies navigation by eliminating the need for **NavigationLink** or **NavigationPath**.
+
 •  Offers type-safe navigation, delivering better performance compared to type-erasing approaches.
+
 •  Consolidates all navigation logic in a single, manageable location.
+
 •  Enables flexible and dynamic control over navigation stacks.
+
 •  Includes robust, unit-tested protocol implementations for reliability.
+
 •  Designed with no external dependencies for seamless integration.
 
 
